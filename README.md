@@ -1,2 +1,3 @@
-# linewire
-Linewire by Agentic Desk — sports digests &amp; price alerts landing page
+# Linewire
+
+Landing page for Linewire by Agentic Desk. Live at https://joinlinewire.com (GitHub Pages).
