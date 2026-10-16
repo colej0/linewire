@@ -13,6 +13,9 @@
 <meta property="og:description" content="Join the free Linewire weekly newsletter: betting line moves, DFS notes and watchlist thinking. Upgrade to Signal or Edge when you're ready.">
 <meta property="og:url" content="https://joinlinewire.com/newsletter.html">
 <meta property="og:locale" content="en_US">
+<meta name="twitter:site" content="@c0lej0">
+<meta name="twitter:creator" content="@c0lej0">
+
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Free Weekly Sports Betting Newsletter">
 <meta name="twitter:description" content="Join the free Linewire weekly newsletter: betting line moves, DFS notes and watchlist thinking. Upgrade to Signal or Edge when you're ready.">
@@ -56,6 +59,7 @@ fieldset.prefs{border:1px solid #e5e7eb;border-radius:10px;padding:10px 14px;mar
 <p class="tag">Free weekly digest</p>
 <h1>The free Linewire <em>newsletter</em></h1>
 <p class="sub">Sunday CT slim digest: top line moves, 1–2 DFS notes, one clear call. Full watchlist + DFS 3/2/1 = Signal; alerts = Edge. No charge, no spam.</p>
+<p><a class="btn" href="#signup">Subscribe free — 10 seconds</a></p>
 <ul class="pills"><li>Free</li><li>Weekly</li><li>Public data</li><li>Upgrade to Signal anytime</li></ul>
 </div>
 <section class="w" id="signup">
@@ -134,5 +138,11 @@ var l=[];try{l=JSON.parse(localStorage.getItem(K)||'[]')}catch(x){}
 if(l.indexOf(em)>-1){done();return}l.push(em);try{localStorage.setItem(K,JSON.stringify(l))}catch(x){}
 fetch(f.action,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}}).then(done,done)});})();
 </script>
+<section class="w" id="share" style="text-align:center"><h2>Know a bettor or DFS player?</h2><p class="lead">Send them the free Sunday digest.</p>
+<p><a class="btn ghost" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Free%20Sunday%20digest%3A%20top%20betting%20line%20moves%2C%20DFS%20notes%20(PrizePicks%2FUnderdog%2FDK%20Pick%206)%20%26%20one%20clear%20call.&url=https%3A%2F%2Fjoinlinewire.com%2Fnewsletter.html%3Futm_source%3Dx%26utm_medium%3Dshare%26utm_campaign%3Dreferral">Share on X</a>
+<a class="btn ghost" target="_blank" rel="noopener" href="https://www.reddit.com/submit?url=https%3A%2F%2Fjoinlinewire.com%2Fnewsletter.html%3Futm_source%3Dreddit%26utm_medium%3Dshare%26utm_campaign%3Dreferral&title=Free%20weekly%20betting%20line%20moves%20%2B%20DFS%20notes%20digest">Share on Reddit</a>
+<button class="btn ghost" type="button" onclick="navigator.clipboard.writeText('https://joinlinewire.com/newsletter.html?utm_source=copy&utm_medium=share&utm_campaign=referral');this.textContent='Link copied ✓'">Copy link</button></p></section>
+<div id="stickycta" style="position:fixed;bottom:0;left:0;right:0;background:#064e3b;color:#fff;text-align:center;padding:10px 12px;z-index:50;font-weight:600">Free Sunday digest: line moves + DFS notes + one call. <a href="#signup" style="color:#6ee7b7;margin-left:8px">Get it free →</a> <button aria-label="Close" onclick="this.parentNode.remove()" style="background:none;border:0;color:#fff;margin-left:10px;cursor:pointer">✕</button></div>
+<script>(function(){var u=new URLSearchParams(location.search);['utm_source','utm_medium','utm_campaign'].forEach(function(k){var v=u.get(k);if(!v)return;document.querySelectorAll('form#wl').forEach(function(f){var i=document.createElement('input');i.type='hidden';i.name=k;i.value=v;f.appendChild(i);});});})();</script>
 </body>
 </html>
