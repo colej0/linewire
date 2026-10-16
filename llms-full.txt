@@ -22,7 +22,7 @@ Linewire is a sports betting digest product from Agentic Desk. It delivers betti
 - Cancel anytime
 
 ## Free weekly newsletter
-Sunday CT digest for people not ready for daily Signal/Edge. Join via https://joinlinewire.com/newsletter.html or the waitlist on the homepage (Formspree).
+Sunday CT digest for people not ready for daily Signal/Edge. Join via https://linewirehq.com/newsletter.html or the waitlist on the homepage (Formspree).
 
 ## Trust / compliance
 - Public data only
@@ -30,14 +30,14 @@ Sunday CT digest for people not ready for daily Signal/Edge. Join via https://jo
 - Not betting advice; informational only; 21+; gambling problem → 1-800-GAMBLER
 
 ## Brand
-- Linewire site: https://joinlinewire.com/
+- Linewire site: https://linewirehq.com/
 - Agentic Desk also builds Shipdesk: https://getshipdesk.com/
 - Keywords: betting line moves, DFS picks, line watchlist, sports betting digest, steam move, reverse line move, price alerts
 
 ## Pages
-- https://joinlinewire.com/
-- https://joinlinewire.com/digest.html
-- https://joinlinewire.com/dfs.html
-- https://joinlinewire.com/pricing.html
-- https://joinlinewire.com/newsletter.html
-- https://joinlinewire.com/llms.txt
+- https://linewirehq.com/
+- https://linewirehq.com/digest.html
+- https://linewirehq.com/dfs.html
+- https://linewirehq.com/pricing.html
+- https://linewirehq.com/newsletter.html
+- https://linewirehq.com/llms.txt
