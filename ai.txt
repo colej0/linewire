@@ -6,3 +6,6 @@ Latest free issue (Oct 18–19, 2026): https://joinlinewire.com/issues/2026-10-1
 Free primer, steam vs reverse line movement: https://joinlinewire.com/steam-rlm.html
 Pricing: https://joinlinewire.com/pricing.html
 Full summary: https://joinlinewire.com/llms.txt
+Markets (Polymarket probabilities, daily): https://joinlinewire.com/markets/index.html
+Odds converter: https://joinlinewire.com/tools/odds-converter.html
+Payout calculator: https://joinlinewire.com/tools/payout-calculator.html

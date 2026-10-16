@@ -12,6 +12,11 @@
 - Free weekly newsletter: https://joinlinewire.com/newsletter.html
 - Latest free issue (Oct 18–19, 2026): https://joinlinewire.com/issues/2026-10-18.html
 
+## Markets & free tools
+- Linewire Markets (Polymarket probabilities, 30-day history, refreshed daily): https://joinlinewire.com/markets/index.html
+- Odds & probability converter (American/decimal/fractional/implied %, no-vig): https://joinlinewire.com/tools/odds-converter.html
+- Bet payout & parlay calculator: https://joinlinewire.com/tools/payout-calculator.html
+
 ## Plans
 - Signal ($9/mo, 7-day free trial): daily digest — line moves, DFS 3/2/1 picks, line watchlist, one clear call, noise filter. Checkout: https://buy.stripe.com/00w3cxb1w8vv9UA3VH9EI01
 - Edge ($19/mo, 7-day free trial): everything in Signal plus price alerts when watchlist lines hit your number, steam & reverse-line-move alerts. Checkout: https://buy.stripe.com/14A6oJ5HcbHH4Ag4ZL9EI02
