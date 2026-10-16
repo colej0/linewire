@@ -8,12 +8,12 @@
 <link rel="canonical" href="https://linewirehq.com/digest.html">
 <meta name="robots" content="index,follow">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Agentic Desk">
+<meta property="og:site_name" content="Linewire">
 <meta property="og:title" content="Daily Betting Digest — Line Moves, DFS & Watchlist">
 <meta property="og:description" content="What's inside the Linewire daily digest: betting line moves, DFS picks (3/2/1), line watchlist, one clear call, noise filter. Public data. From $9/mo.">
 <meta property="og:url" content="https://linewirehq.com/digest.html">
 <meta property="og:locale" content="en_US">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://linewirehq.com/assets/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Linewire — free Sunday line-moves email"><meta name="twitter:image" content="https://linewirehq.com/assets/og-image.png"><meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Daily Betting Digest — Line Moves, DFS & Watchlist">
 <meta name="twitter:description" content="What's inside the Linewire daily digest: betting line moves, DFS picks (3/2/1), line watchlist, one clear call, noise filter. Public data. From $9/mo.">
 <style>
@@ -48,7 +48,7 @@ footer{border-top:1px solid #e5e7eb;padding:28px 0;color:#6b7280;font-size:.85re
 </style>
 </head>
 <body>
-<header><div class="w"><div class="logo"><a href="/">Agentic Desk · <span>Linewire</span></a></div><nav><a class="hide" href="digest.html">Digest</a><a class="hide" href="dfs.html">DFS</a><a class="hide" href="pricing.html">Pricing</a><a class="hide" href="newsletter.html">Newsletter</a><a href="https://getshipdesk.com/">Shipdesk →</a></nav></div></header>
+<header><div class="w"><div class="logo"><a href="/"><span>Linewire</span></a></div><nav><a class="hide" href="digest.html">Digest</a><a class="hide" href="dfs.html">DFS</a><a class="hide" href="pricing.html">Pricing</a><a class="hide" href="newsletter.html">Newsletter</a><a href="https://getshipdesk.com/">Shipdesk →</a></nav></div></header>
 
 <div class="hero w">
 <p class="crumbs"><a href="/">Home</a> · Digest</p>
@@ -78,7 +78,16 @@ footer{border-top:1px solid #e5e7eb;padding:28px 0;color:#6b7280;font-size:.85re
 <p><a class="btn" href="newsletter.html?utm_source=seo&utm_medium=page&utm_campaign=digest">Subscribe free</a><a class="btn ghost" href="https://buy.stripe.com/14A6oJ5HcbHH4Ag4ZL9EI02">Or try Edge — 7 days</a></p>
 </section>
 
+<section class="w lw-su" id="signup-digest_page" style="text-align:center"><h2>Get the free Sunday email</h2><p class="lead">Top line moves, steam vs RLM, PrizePicks/Underdog/Pick6 notes and one clear call. Sunday 7am CT.</p>
+<form class="card lw-signup" action="https://formspree.io/f/mjygjovn" method="POST" style="max-width:480px;margin:0 auto;text-align:left">
+<input type="hidden" name="source" value="digest_page"><label for="em-digest_page">Email</label><input id="em-digest_page" name="email" type="email" required placeholder="you@example.com" autocomplete="email">
+<input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+<button class="btn" type="submit" style="width:100%;margin:12px 0 0">Get the free Sunday email</button><p class="note" style="text-align:center">Free · 1 email/week · unsubscribe anytime</p></form>
+<div class="card lw-ok" style="display:none;max-width:480px;margin:0 auto"><h3>You're in ✓</h3><p>Welcome email is on the way. Pick your sports &amp; platforms: <a class="lw-prefs" href="prefs.html">set preferences →</a></p></div></section>
 <footer>© 2026 Agentic Desk · Linewire · <a href="/">Home</a><a href="digest.html">Digest</a><a href="dfs.html">DFS</a><a href="pricing.html">Pricing</a><a href="newsletter.html">Newsletter</a><a href="https://getshipdesk.com/">Shipdesk</a><a href="prefs.html">Email preferences</a><br>For information only; not betting advice. 21+. Gambling problem? Call 1-800-GAMBLER.</footer>
 
-</body>
+<script>(function(){var u=new URLSearchParams(location.search);document.querySelectorAll('form.lw-signup').forEach(function(f){['utm_source','utm_medium','utm_campaign'].forEach(function(k){var v=u.get(k);if(v){var i=document.createElement('input');i.type='hidden';i.name=k;i.value=v;f.appendChild(i)}});
+f.addEventListener('submit',function(ev){ev.preventDefault();var em=f.email.value.trim();if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){f.email.focus();return}
+var ok=f.parentNode.querySelector('.lw-ok');function done(){f.style.display='none';if(ok){ok.style.display='block';var a=ok.querySelector('.lw-prefs');if(a)a.href+=(a.href.indexOf('?')>-1?'&':'?')+'email='+encodeURIComponent(em)}}
+fetch(f.action,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}}).then(done,done)})})})();</script></body>
 </html>

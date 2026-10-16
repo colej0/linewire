@@ -7,9 +7,9 @@
 <meta name="description" content="How Linewire builds each sports betting digest: opening lines captured, moves tracked, DFS picks for PrizePicks, Underdog and DraftKings Pick 6, and when emails arrive.">
 <link rel="canonical" href="https://linewirehq.com/how-digest-works.html">
 <meta name="robots" content="index,follow">
-<meta property="og:type" content="article"><meta property="og:site_name" content="Agentic Desk">
+<meta property="og:type" content="article"><meta property="og:site_name" content="Linewire">
 <meta property="og:title" content="How the Linewire Digest Works: Line Moves, DFS Picks &amp; Watchlist | Linewire"><meta property="og:description" content="How Linewire builds each sports betting digest: opening lines captured, moves tracked, DFS picks for PrizePicks, Underdog and DraftKings Pick 6, and when emails arrive.">
-<meta property="og:url" content="https://linewirehq.com/how-digest-works.html"><meta name="twitter:card" content="summary">
+<meta property="og:url" content="https://linewirehq.com/how-digest-works.html"><meta property="og:image" content="https://linewirehq.com/assets/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Linewire — free Sunday line-moves email"><meta name="twitter:image" content="https://linewirehq.com/assets/og-image.png"><meta name="twitter:card" content="summary_large_image">
 <style>
 *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#111827;background:#f9fafb;line-height:1.6}
 .w{max-width:960px;margin:0 auto;padding:0 20px}header{background:#fff;border-bottom:1px solid #e5e7eb}header .w{display:flex;justify-content:space-between;align-items:center;height:64px}
@@ -42,7 +42,7 @@ footer{border-top:1px solid #e5e7eb;padding:28px 0;color:#6b7280;font-size:.85re
 </style>
 </head>
 <body>
-<header><div class="w"><div class="logo"><a href="/">Agentic Desk · <span>Linewire</span></a></div><nav><a class="hide" href="digest.html">Digest</a><a class="hide" href="dfs.html">DFS</a><a class="hide" href="pricing.html">Pricing</a><a class="hide" href="newsletter.html">Newsletter</a><a href="https://getshipdesk.com/">Shipdesk →</a></nav></div></header>
+<header><div class="w"><div class="logo"><a href="/"><span>Linewire</span></a></div><nav><a class="hide" href="digest.html">Digest</a><a class="hide" href="dfs.html">DFS</a><a class="hide" href="pricing.html">Pricing</a><a class="hide" href="newsletter.html">Newsletter</a><a href="https://getshipdesk.com/">Shipdesk →</a></nav></div></header>
 
 <div class="hero w">
 <p class="crumbs"><a href="/">Home</a> · How it works</p>
@@ -56,7 +56,16 @@ footer{border-top:1px solid #e5e7eb;padding:28px 0;color:#6b7280;font-size:.85re
 <h3>What we never do</h3><p>No sportsbook or bank logins. Public data only. Information, not betting advice. 21+.</p></div></section>
 <section class="w" style="text-align:center"><h2>Free Sunday digest — join in 10 seconds</h2><p class="lead">Top line moves, 1–2 DFS notes, one call — plus the Line Move Cheat Sheet on signup. Or go daily with Signal ($9) / Edge ($19).</p>
 <p><a class="btn" href="newsletter.html?utm_source=seo&utm_medium=page&utm_campaign=how-digest-works">Subscribe free</a><a class="btn ghost" href="pricing.html">See Signal &amp; Edge</a></p></section>
+<section class="w lw-su" id="signup-how_digest_page" style="text-align:center"><h2>Get the free Sunday email</h2><p class="lead">Top line moves, steam vs RLM, PrizePicks/Underdog/Pick6 notes and one clear call. Sunday 7am CT.</p>
+<form class="card lw-signup" action="https://formspree.io/f/mjygjovn" method="POST" style="max-width:480px;margin:0 auto;text-align:left">
+<input type="hidden" name="source" value="how_digest_page"><label for="em-how_digest_page">Email</label><input id="em-how_digest_page" name="email" type="email" required placeholder="you@example.com" autocomplete="email">
+<input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+<button class="btn" type="submit" style="width:100%;margin:12px 0 0">Get the free Sunday email</button><p class="note" style="text-align:center">Free · 1 email/week · unsubscribe anytime</p></form>
+<div class="card lw-ok" style="display:none;max-width:480px;margin:0 auto"><h3>You're in ✓</h3><p>Welcome email is on the way. Pick your sports &amp; platforms: <a class="lw-prefs" href="prefs.html">set preferences →</a></p></div></section>
 <footer>© 2026 Agentic Desk · Linewire · <a href="/">Home</a><a href="digest.html">Digest</a><a href="dfs.html">DFS</a><a href="pricing.html">Pricing</a><a href="newsletter.html">Newsletter</a><a href="https://getshipdesk.com/">Shipdesk</a><a href="prefs.html">Email preferences</a><br>For information only; not betting advice. 21+. Gambling problem? Call 1-800-GAMBLER.</footer>
 
-</body>
+<script>(function(){var u=new URLSearchParams(location.search);document.querySelectorAll('form.lw-signup').forEach(function(f){['utm_source','utm_medium','utm_campaign'].forEach(function(k){var v=u.get(k);if(v){var i=document.createElement('input');i.type='hidden';i.name=k;i.value=v;f.appendChild(i)}});
+f.addEventListener('submit',function(ev){ev.preventDefault();var em=f.email.value.trim();if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){f.email.focus();return}
+var ok=f.parentNode.querySelector('.lw-ok');function done(){f.style.display='none';if(ok){ok.style.display='block';var a=ok.querySelector('.lw-prefs');if(a)a.href+=(a.href.indexOf('?')>-1?'&':'?')+'email='+encodeURIComponent(em)}}
+fetch(f.action,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}}).then(done,done)})})})();</script></body>
 </html>
