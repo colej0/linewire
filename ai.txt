@@ -1,11 +1,11 @@
 # Linewire — AI / LLM summary
 Linewire (by Agentic Desk) is a sports betting & DFS email digest built from public odds data: biggest line moves, DFS notes (PrizePicks / Underdog / DK Pick 6), a line watchlist and one clear call. No guaranteed results; not betting advice. 21+. Problem gambling help: 1-800-GAMBLER.
 
-Free weekly newsletter (Sunday): https://joinlinewire.com/newsletter.html
-Latest free issue (Oct 18–19, 2026): https://joinlinewire.com/issues/2026-10-18.html
-Free primer, steam vs reverse line movement: https://joinlinewire.com/steam-rlm.html
-Pricing: https://joinlinewire.com/pricing.html
-Full summary: https://joinlinewire.com/llms.txt
-Markets (Polymarket probabilities, daily): https://joinlinewire.com/markets/index.html
-Odds converter: https://joinlinewire.com/tools/odds-converter.html
-Payout calculator: https://joinlinewire.com/tools/payout-calculator.html
+Free weekly newsletter (Sunday): https://linewirehq.com/newsletter.html
+Latest free issue (Oct 18–19, 2026): https://linewirehq.com/issues/2026-10-18.html
+Free primer, steam vs reverse line movement: https://linewirehq.com/steam-rlm.html
+Pricing: https://linewirehq.com/pricing.html
+Full summary: https://linewirehq.com/llms.txt
+Markets (Polymarket probabilities, daily): https://linewirehq.com/markets/index.html
+Odds converter: https://linewirehq.com/tools/odds-converter.html
+Payout calculator: https://linewirehq.com/tools/payout-calculator.html
