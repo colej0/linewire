@@ -14,6 +14,9 @@
 - Latest free issue (Oct 18–19, 2026): https://linewirehq.com/issues/2026-10-18.html
 
 ## Markets & free tools
+- Free tools hub: https://linewirehq.com/tools/
+- Hold (vig) calculator: https://linewirehq.com/tools/hold-calculator.html
+- EV & Kelly calculator: https://linewirehq.com/tools/ev-calculator.html
 - Linewire Markets (Polymarket probabilities, 30-day history, refreshed daily): https://linewirehq.com/markets/index.html
 - Odds & probability converter (American/decimal/fractional/implied %, no-vig): https://linewirehq.com/tools/odds-converter.html
 - PrizePicks calculator & breakeven odds (Power vs Flex, 2–6 picks, no-vig comparison): https://linewirehq.com/tools/prizepicks-calculator.html
