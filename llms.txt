@@ -1,6 +1,6 @@
-# Linewire by Agentic Desk
+# Linewire
 
-> Daily sports betting digests: betting line moves, DFS picks, and your line watchlist — plus price alerts on Edge. Public data only.
+> Free Sunday email (7am CT): biggest betting line moves since open, steam vs reverse line movement, PrizePicks/Underdog/Pick6 notes and one clear call. Paid daily digests: betting line moves, DFS picks, and your line watchlist — plus price alerts on Edge. Public data only.
 
 ## Product
 - Site: https://linewirehq.com/
@@ -10,11 +10,13 @@
 - Steam & reverse line movement explained: https://linewirehq.com/steam-rlm.html
 - Pricing: https://linewirehq.com/pricing.html
 - Free weekly newsletter: https://linewirehq.com/newsletter.html
+- NFL line moves Week 7 (opening vs current): https://linewirehq.com/nfl-line-moves-week-7.html
 - Latest free issue (Oct 18–19, 2026): https://linewirehq.com/issues/2026-10-18.html
 
 ## Markets & free tools
 - Linewire Markets (Polymarket probabilities, 30-day history, refreshed daily): https://linewirehq.com/markets/index.html
 - Odds & probability converter (American/decimal/fractional/implied %, no-vig): https://linewirehq.com/tools/odds-converter.html
+- PrizePicks calculator & breakeven odds (Power vs Flex, 2–6 picks, no-vig comparison): https://linewirehq.com/tools/prizepicks-calculator.html
 - Bet payout & parlay calculator: https://linewirehq.com/tools/payout-calculator.html
 
 ## Plans
