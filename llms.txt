@@ -1,0 +1,22 @@
+# Linewire by Agentic Desk
+
+> Daily sports betting digests: betting line moves, DFS picks, and your line watchlist — plus price alerts on Edge. Public data only.
+
+## Product
+- Site: https://joinlinewire.com/
+- What is a digest: https://joinlinewire.com/digest.html
+- DFS picks format: https://joinlinewire.com/dfs.html
+- Pricing: https://joinlinewire.com/pricing.html
+- Free weekly newsletter: https://joinlinewire.com/newsletter.html
+
+## Plans
+- Signal ($9/mo, 7-day free trial): daily digest — line moves, DFS 3/2/1 picks, line watchlist, one clear call, noise filter. Checkout: https://buy.stripe.com/00w3cxb1w8vv9UA3VH9EI01
+- Edge ($19/mo, 7-day free trial): everything in Signal plus price alerts when watchlist lines hit your number, steam & reverse-line-move alerts. Checkout: https://buy.stripe.com/14A6oJ5HcbHH4Ag4ZL9EI02
+
+## Posture
+- Public data only. No sportsbook, banking, or financial-account logins or passwords.
+- For information only; not betting advice. 21+.
+- Sister product: Shipdesk overnight micro-apps — https://getshipdesk.com/
+
+## Optional
+- Full summary: https://joinlinewire.com/llms-full.txt
