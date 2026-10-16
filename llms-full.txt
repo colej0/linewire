@@ -1,0 +1,43 @@
+# Linewire by Agentic Desk — Full summary
+
+Linewire is a sports betting digest product from Agentic Desk. It delivers betting line moves (spread, total, moneyline), DFS picks and slate notes, and a personal line watchlist in one daily email. Edge adds real-time-style price alerts when a watched line hits your target number, plus steam and reverse-line-move (RLM) alerts.
+
+## What subscribers get
+
+### Daily digest (Signal and Edge)
+1. Line moves — biggest overnight moves since open; steam and RLM called out
+2. DFS picks — 3 core plays, 2 value plays, 1 fade for the main slate, plus injury/lineup notes that change ownership
+3. Line watchlist — current number vs open for teams, games, and props you follow
+4. One clear call — the single spot most worth attention today
+5. Noise filter — what was skipped so you do not have to read it
+6. Tomorrow — games and lines to watch next
+
+### Edge-only
+- Price alerts when a watchlist line moves to your set number
+- Steam and reverse-line-move alerts on watched lines
+
+## Pricing (unchanged Stripe checkout)
+- Signal: $9/mo after 7-day free trial — https://buy.stripe.com/00w3cxb1w8vv9UA3VH9EI01
+- Edge: $19/mo after 7-day free trial — https://buy.stripe.com/14A6oJ5HcbHH4Ag4ZL9EI02
+- Cancel anytime
+
+## Free weekly newsletter
+Sunday CT digest for people not ready for daily Signal/Edge. Join via https://joinlinewire.com/newsletter.html or the waitlist on the homepage (Formspree).
+
+## Trust / compliance
+- Public data only
+- Never asks for sportsbook, bank, or financial-account passwords
+- Not betting advice; informational only; 21+; gambling problem → 1-800-GAMBLER
+
+## Brand
+- Linewire site: https://joinlinewire.com/
+- Agentic Desk also builds Shipdesk: https://getshipdesk.com/
+- Keywords: betting line moves, DFS picks, line watchlist, sports betting digest, steam move, reverse line move, price alerts
+
+## Pages
+- https://joinlinewire.com/
+- https://joinlinewire.com/digest.html
+- https://joinlinewire.com/dfs.html
+- https://joinlinewire.com/pricing.html
+- https://joinlinewire.com/newsletter.html
+- https://joinlinewire.com/llms.txt
