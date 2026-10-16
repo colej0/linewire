@@ -3,19 +3,19 @@
 > Daily sports betting digests: betting line moves, DFS picks, and your line watchlist — plus price alerts on Edge. Public data only.
 
 ## Product
-- Site: https://joinlinewire.com/
-- What is a digest: https://joinlinewire.com/digest.html
-- DFS picks format: https://joinlinewire.com/dfs.html
-- How the digest works: https://joinlinewire.com/how-digest-works.html
-- Steam & reverse line movement explained: https://joinlinewire.com/steam-rlm.html
-- Pricing: https://joinlinewire.com/pricing.html
-- Free weekly newsletter: https://joinlinewire.com/newsletter.html
-- Latest free issue (Oct 18–19, 2026): https://joinlinewire.com/issues/2026-10-18.html
+- Site: https://linewirehq.com/
+- What is a digest: https://linewirehq.com/digest.html
+- DFS picks format: https://linewirehq.com/dfs.html
+- How the digest works: https://linewirehq.com/how-digest-works.html
+- Steam & reverse line movement explained: https://linewirehq.com/steam-rlm.html
+- Pricing: https://linewirehq.com/pricing.html
+- Free weekly newsletter: https://linewirehq.com/newsletter.html
+- Latest free issue (Oct 18–19, 2026): https://linewirehq.com/issues/2026-10-18.html
 
 ## Markets & free tools
-- Linewire Markets (Polymarket probabilities, 30-day history, refreshed daily): https://joinlinewire.com/markets/index.html
-- Odds & probability converter (American/decimal/fractional/implied %, no-vig): https://joinlinewire.com/tools/odds-converter.html
-- Bet payout & parlay calculator: https://joinlinewire.com/tools/payout-calculator.html
+- Linewire Markets (Polymarket probabilities, 30-day history, refreshed daily): https://linewirehq.com/markets/index.html
+- Odds & probability converter (American/decimal/fractional/implied %, no-vig): https://linewirehq.com/tools/odds-converter.html
+- Bet payout & parlay calculator: https://linewirehq.com/tools/payout-calculator.html
 
 ## Plans
 - Signal ($9/mo, 7-day free trial): daily digest — line moves, DFS 3/2/1 picks, line watchlist, one clear call, noise filter. Checkout: https://buy.stripe.com/00w3cxb1w8vv9UA3VH9EI01
@@ -27,4 +27,4 @@
 - Sister product: Shipdesk overnight micro-apps — https://getshipdesk.com/
 
 ## Optional
-- Full summary: https://joinlinewire.com/llms-full.txt
+- Full summary: https://linewirehq.com/llms-full.txt
