@@ -6,6 +6,8 @@
 - Site: https://joinlinewire.com/
 - What is a digest: https://joinlinewire.com/digest.html
 - DFS picks format: https://joinlinewire.com/dfs.html
+- How the digest works: https://joinlinewire.com/how-digest-works.html
+- Steam & reverse line movement explained: https://joinlinewire.com/steam-rlm.html
 - Pricing: https://joinlinewire.com/pricing.html
 - Free weekly newsletter: https://joinlinewire.com/newsletter.html
 

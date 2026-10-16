@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How the Linewire Digest Works: Line Moves, DFS Picks &amp; Watchlist | Linewire</title>
+<meta name="description" content="How Linewire builds each sports betting digest: opening lines captured, moves tracked, DFS picks for PrizePicks, Underdog and DraftKings Pick 6, and when emails arrive.">
+<link rel="canonical" href="https://joinlinewire.com/how-digest-works.html">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="article"><meta property="og:site_name" content="Agentic Desk">
+<meta property="og:title" content="How the Linewire Digest Works: Line Moves, DFS Picks &amp; Watchlist | Linewire"><meta property="og:description" content="How Linewire builds each sports betting digest: opening lines captured, moves tracked, DFS picks for PrizePicks, Underdog and DraftKings Pick 6, and when emails arrive.">
+<meta property="og:url" content="https://joinlinewire.com/how-digest-works.html"><meta name="twitter:card" content="summary">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#111827;background:#f9fafb;line-height:1.6}
+.w{max-width:960px;margin:0 auto;padding:0 20px}header{background:#fff;border-bottom:1px solid #e5e7eb}header .w{display:flex;justify-content:space-between;align-items:center;height:64px}
+.logo{font-weight:800}.logo a{color:inherit;text-decoration:none}.logo span{color:#059669}header nav a{color:#4b5563;text-decoration:none;font-weight:600;font-size:.95rem;margin-left:18px}header nav a:hover,.logo a:hover span{color:#059669}
+.hero{padding:56px 0 32px;text-align:center}h1{font-size:clamp(1.85rem,4.5vw,2.75rem);line-height:1.15;margin:0 0 14px}h1 em{font-style:normal;color:#059669}
+.tag{color:#059669;font-weight:600;margin:0 0 8px}.sub{color:#4b5563;font-size:1.1rem;max-width:660px;margin:0 auto 22px}
+.pills{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:0 0 26px;padding:0;list-style:none}.pills li{background:#ecfdf5;color:#047857;font-weight:700;font-size:.85rem;padding:6px 14px;border-radius:999px;border:1px solid #a7f3d0}
+.btn{display:inline-block;background:#059669;color:#fff;border:0;cursor:pointer;font:inherit;text-decoration:none;padding:14px 26px;border-radius:10px;font-weight:700;margin:4px}.btn:hover{background:#047857}
+.btn.ghost{background:#fff;color:#059669;border:2px solid #059669}.btn.ghost:hover{background:#ecfdf5}
+.btn.block{display:block;width:100%;text-align:center;margin:16px 0 0}
+.note{font-size:.8rem;color:#6b7280;margin-top:10px}section{padding:36px 0}h2{font-size:1.55rem;margin:0 0 8px;text-align:center}.lead{text-align:center;color:#4b5563;margin:0 auto 22px;max-width:620px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}.card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:22px}
+.card.f{border:2px solid #059669}.price{font-size:1.8rem;font-weight:800}.card h3{margin:0 0 4px}.card p{margin:6px 0 0;color:#4b5563;font-size:.95rem}
+.card ul{margin:12px 0 0;padding:0 0 0 18px;color:#4b5563;font-size:.95rem}.card ul li{margin:4px 0}
+.ico{font-size:1.5rem;display:inline-block;width:44px;height:44px;line-height:44px;text-align:center;border-radius:12px;background:#ecfdf5;margin-bottom:8px}
+.badge{display:inline-block;background:#111827;color:#fff;font-size:.7rem;font-weight:700;padding:2px 8px;border-radius:999px;vertical-align:middle;margin-left:6px}
+.sample{max-width:620px;margin:0 auto;font-size:.95rem}.sample h3{color:#047857}.sample dt{font-weight:700;margin-top:10px}.sample dd{margin:2px 0 0;color:#4b5563}
+form.card{max-width:520px;margin:0 auto;text-align:left;border:2px solid #059669}label{display:block;font-weight:600;font-size:.9rem;margin:10px 0 4px}
+input{width:100%;padding:12px 14px;border:1px solid #d1d5db;border-radius:10px;font:inherit}input:focus{outline:2px solid #059669;border-color:#059669}
+form .btn{width:100%;margin:16px 0 0}.err{color:#b91c1c;font-size:.85rem;min-height:1.2em;margin:6px 0 0}
+.ok{display:none;max-width:520px;margin:0 auto;text-align:center;border:2px solid #059669;background:#ecfdf5}.ok h3{color:#047857}
+.trial{display:inline-block;background:#ecfdf5;color:#047857;font-size:.75rem;font-weight:700;padding:4px 10px;border-radius:999px;margin-bottom:8px}
+.faq details{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:16px 20px;margin:0 0 12px}
+.faq summary{font-weight:700;cursor:pointer;list-style:none}.faq summary::-webkit-details-marker{display:none}
+.faq details[open] summary{margin-bottom:8px}.faq details p{margin:0;color:#4b5563}
+.prose{max-width:720px;margin:0 auto}.prose p,.prose li{color:#4b5563}.prose h3{margin:22px 0 8px}
+.crumbs{font-size:.85rem;color:#6b7280;margin:0 0 12px}.crumbs a{color:#059669;text-decoration:none;font-weight:600}
+footer{border-top:1px solid #e5e7eb;padding:28px 0;color:#6b7280;font-size:.85rem;text-align:center}footer a{color:#6b7280;margin:0 6px}
+@media(max-width:640px){header nav a.hide{display:none}}
+</style>
+</head>
+<body>
+<header><div class="w"><div class="logo"><a href="/">Agentic Desk · <span>Linewire</span></a></div><nav><a class="hide" href="digest.html">Digest</a><a class="hide" href="dfs.html">DFS</a><a class="hide" href="pricing.html">Pricing</a><a class="hide" href="newsletter.html">Newsletter</a><a href="https://getshipdesk.com/">Shipdesk →</a></nav></div></header>
+
+<div class="hero w">
+<p class="crumbs"><a href="/">Home</a> · How it works</p>
+<p class="tag">How it works</p><h1>How the digest <em>works</em></h1><p class="sub">From opening lines to your inbox: what we capture, what we filter out, and when each email arrives.</p>
+<ul class="pills"><li>Openers captured</li><li>Moves tracked</li><li>DFS 3/2/1</li><li>Free weekly</li><li>Paid 3x/week</li></ul></div>
+<section class="w prose"><div class="card"><h3>1. Capture the openers</h3><p>Each morning we record opening spreads, totals and moneylines from public odds data so every later move has a baseline.</p>
+<h3>2. Track and rank the moves</h3><p>We compare current numbers to the open, rank the biggest moves, and flag possible steam or reverse line movement. Moves explained by injuries or weather are labeled.</p>
+<h3>3. Build the DFS section</h3><p>Picks are formatted for the platforms you choose at signup: PrizePicks, Underdog, DraftKings Pick 6, plus straight bets. The format is 3 core, 2 value, 1 fade.</p>
+<h3>4. One call, minus the noise</h3><p>Each issue ends with the single spot most worth your attention and a short list of moves to ignore.</p>
+<h3>When emails arrive</h3><ul><li><strong>Free:</strong> 1 email per week, Sunday morning (top moves, 1-2 DFS notes, one call).</li><li><strong>Signal ($9) / Edge ($19):</strong> 3 emails per week, one full digest plus two shorter updates with DFS picks and line changes.</li><li><strong>7-day free trial:</strong> all 3 weekly emails.</li><li><strong>Edge:</strong> plus alerts when watchlist lines hit your number.</li></ul>
+<h3>What we never do</h3><p>No sportsbook or bank logins. Public data only. Information, not betting advice. 21+.</p></div></section>
+<section class="w" style="text-align:center"><h2>Get line moves in your inbox</h2><p class="lead">Free Sunday digest: top line moves, DFS notes, one call. Or go daily with Signal ($9) / Edge ($19), 7 days free.</p>
+<p><a class="btn" href="newsletter.html?utm_source=seo&utm_medium=page&utm_campaign=how-digest-works">Get the free Sunday digest</a><a class="btn ghost" href="pricing.html">See Signal &amp; Edge</a></p></section>
+<footer>© 2026 Agentic Desk · Linewire · <a href="/">Home</a><a href="digest.html">Digest</a><a href="dfs.html">DFS</a><a href="pricing.html">Pricing</a><a href="newsletter.html">Newsletter</a><a href="https://getshipdesk.com/">Shipdesk</a><br>For information only; not betting advice. 21+. Gambling problem? Call 1-800-GAMBLER.</footer>
+
+</body>
+</html>
