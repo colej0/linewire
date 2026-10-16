@@ -45,6 +45,7 @@ form .btn{width:100%;margin:16px 0 0}.err{color:#b91c1c;font-size:.85rem;min-hei
 .crumbs{font-size:.85rem;color:#6b7280;margin:0 0 12px}.crumbs a{color:#059669;text-decoration:none;font-weight:600}
 footer{border-top:1px solid #e5e7eb;padding:28px 0;color:#6b7280;font-size:.85rem;text-align:center}footer a{color:#6b7280;margin:0 6px}
 @media(max-width:640px){header nav a.hide{display:none}}
+fieldset.prefs{border:1px solid #e5e7eb;border-radius:10px;padding:10px 14px;margin:12px 0 4px}fieldset.prefs legend{font-weight:700;font-size:.9rem;padding:0 4px}label.ck{display:flex;align-items:center;gap:8px;font-weight:500;margin:6px 0}label.ck input{width:auto;margin:0;padding:0}.ph{font-size:.75rem;color:#6b7280;text-transform:uppercase;letter-spacing:.04em;margin:8px 0 0}
 </style>
 </head>
 <body>
@@ -64,6 +65,15 @@ footer{border-top:1px solid #e5e7eb;padding:28px 0;color:#6b7280;font-size:.85re
 <label for="email">Email *</label><input id="email" name="email" type="email" required placeholder="you@example.com" autocomplete="email">
 <label for="teams">Sports / teams you bet or play DFS on (optional)</label><input id="teams" name="teams" type="text" placeholder="e.g. NFL — Texans, CFB — Indiana, NBA DFS">
 <input type="hidden" name="source" value="newsletter_page">
+<fieldset class="prefs"><legend>What do you want in your digests?</legend>
+<p class="ph">DFS pick'em platforms</p>
+<label class="ck"><input type="checkbox" name="interests[]" value="DraftKings Pick 6"> DraftKings Pick 6 / Pick'em</label>
+<label class="ck"><input type="checkbox" name="interests[]" value="PrizePicks"> PrizePicks</label>
+<label class="ck"><input type="checkbox" name="interests[]" value="Underdog"> Underdog</label>
+<p class="ph">Sportsbook</p>
+<label class="ck"><input type="checkbox" name="interests[]" value="Straight bets"> Straight-up bets (spreads, totals, moneylines)</label>
+<p class="note" style="margin-top:6px">Pick any mix. Signal &amp; Edge digests are tailored to what you choose: DFS picks formatted for your platforms, line moves for straight bets.</p>
+</fieldset>
 <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
 <button class="btn" type="submit">Subscribe free</button><p class="err" id="err"></p>
 <p class="note">Or skip ahead to a paid daily trial.</p></form>
