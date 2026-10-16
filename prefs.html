@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Notification preferences | Linewire</title><meta name="description" content="Choose your Linewire sports and whether you get digests only or Edge line-move alerts. Max 3 alerts a day.">
+<title>Email preferences | Linewire</title><meta name="description" content="Choose the sports, platforms and teams in your free Linewire Sunday email.">
 <link rel="canonical" href="https://linewirehq.com/prefs.html"><meta name="robots" content="noindex,follow">
 <style>
 *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#111827;background:#f9fafb;line-height:1.6}
@@ -31,25 +31,20 @@ form .btn{width:100%;margin:16px 0 0}.err{color:#b91c1c;font-size:.85rem;min-hei
 footer{border-top:1px solid #e5e7eb;padding:28px 0;color:#6b7280;font-size:.85rem;text-align:center}footer a{color:#6b7280;margin:0 6px}
 @media(max-width:640px){header nav a.hide{display:none}}
 fieldset.prefs{border:1px solid #e5e7eb;border-radius:10px;padding:10px 14px;margin:12px 0 4px}fieldset.prefs legend{font-weight:700;font-size:.9rem;padding:0 4px}label.ck{display:flex;align-items:center;gap:8px;font-weight:500;margin:6px 0}label.ck input{width:auto;margin:0;padding:0}.ph{font-size:.75rem;color:#6b7280;text-transform:uppercase;letter-spacing:.04em;margin:8px 0 0}
-</style><style>textarea{width:100%;padding:12px 14px;border:1px solid #d1d5db;border-radius:10px;font:inherit;min-height:80px}</style></head><body>
+</style><style>textarea{width:100%;padding:12px 14px;border:1px solid #d1d5db;border-radius:10px;font:inherit;min-height:80px}</style><script src="/assets/lw.js" defer></script></head><body>
 <header><div class="w"><div class="logo"><a href="/"><span>Linewire</span></a></div><nav><a href="/tools/" style="font-weight:700;color:#059669">Free Tools</a><a class="hide" href="digest.html">Digest</a><a class="hide" href="dfs.html">DFS</a><a class="hide" href="pricing.html">Pricing</a><a class="hide" href="newsletter.html">Newsletter</a><a href="https://getshipdesk.com/">Shipdesk →</a></nav></div></header>
 <div class="hero w"><p class="crumbs"><a href="/">Home</a> · Preferences</p><h1>Your Linewire <em>preferences</em></h1>
-<p class="sub">Pick your sports and how often you hear from us. We never flood your inbox: digests on schedule, and Edge alerts capped at 3 per day.</p></div>
+<p class="sub">Pick your sports, platforms and teams. Changes apply from your next email.</p></div>
 <section class="w"><form id="pf" class="card" action="https://formspree.io/f/mjygjovn" method="POST">
 <input type="hidden" name="source" value="prefs_page"><input type="hidden" name="_subject" value="Linewire prefs update">
-<label for="email">Email you subscribed with *</label><input id="email" name="email" type="email" required placeholder="you@example.com" autocomplete="email">
+<label for="email">Your subscribed email *</label><input id="email" name="email" type="email" required placeholder="you@example.com" autocomplete="email">
 <fieldset class="prefs"><legend>Sports (digests and alerts only include these)</legend><label class="ck"><input type="checkbox" name="sports[]" value="NFL" checked> NFL</label><label class="ck"><input type="checkbox" name="sports[]" value="NBA"> NBA</label><label class="ck"><input type="checkbox" name="sports[]" value="MLB"> MLB</label><label class="ck"><input type="checkbox" name="sports[]" value="NHL"> NHL</label><label class="ck"><input type="checkbox" name="sports[]" value="CFB"> CFB</label><label class="ck"><input type="checkbox" name="sports[]" value="CBB"> CBB</label></fieldset>
 <fieldset class="prefs"><legend>Platforms (DFS notes are formatted for these)</legend><label class="ck"><input type="checkbox" name="interests[]" value="PrizePicks"> PrizePicks</label><label class="ck"><input type="checkbox" name="interests[]" value="Underdog"> Underdog</label><label class="ck"><input type="checkbox" name="interests[]" value="DraftKings Pick 6"> DraftKings Pick 6 / Pick'em</label><label class="ck"><input type="checkbox" name="interests[]" value="Straight bets"> Straight-up bets (spreads, totals, moneylines)</label></fieldset>
 <label for="teams">Teams you follow (optional)</label><input id="teams" name="teams" type="text" placeholder="e.g. Texans, Indiana, NBA DFS">
-<fieldset class="prefs"><legend>Delivery</legend>
-<label class="ck"><input type="radio" name="notify_mode" value="digest_only" checked> <span><strong>Digests only</strong>: scheduled emails, no alerts (free: Sunday 7am CT; Signal/Edge: Sun + Wed + Fri)</span></label>
-<label class="ck"><input type="radio" name="notify_mode" value="alerts_on"> <span><strong>Digests + alerts</strong> (Edge &amp; Edge trial): short email when a watched line hits. Max 3 per day; extras roll into your next digest.</span></label>
-<p class="note">Free and Signal plans get digests only, whatever you pick here.</p></fieldset>
-<label for="wl">Lines to watch (optional, Edge)</label><textarea id="wl" name="watchlist" placeholder="e.g. BUF@LV total 55+; CLE +3 or better; LAC +7.5"></textarea>
 <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
 <button class="btn" type="submit">Save preferences</button>
 <p class="note">Or just reply to any Linewire email with your changes. Unsubscribe anytime via the link in every email.</p></form>
-<div class="card ok" id="ok"><h3>Saved ✓</h3><p>Your preferences apply from the next send (usually within a day).</p></div></section>
+<div class="card ok" id="ok"><h3>Saved ✓</h3><p>Applies from your next email.</p></div></section>
 <footer>© 2026 Agentic Desk · Linewire · <a href="/">Home</a><a href="pricing.html">Pricing</a><a href="newsletter.html">Newsletter</a><a href="prefs.html">Email preferences</a><br>For information only; not betting advice. 21+. Gambling problem? Call 1-800-GAMBLER.</footer>
-<script>(function(){var e=new URLSearchParams(location.search).get('email');if(e)document.getElementById('email').value=e})();</script><script>const f=document.getElementById('pf');f.addEventListener('submit',async e=>{e.preventDefault();const r=await fetch(f.action,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}});if(r.ok){f.style.display='none';document.getElementById('ok').style.display='block'}else alert('Something went wrong; reply to any Linewire email instead.')});</script>
+<script>(function(){var e=new URLSearchParams(location.search).get('email');if(e)document.getElementById('email').value=e.replace(/ /g,'+')})();</script><script>const f=document.getElementById('pf');f.addEventListener('submit',async e=>{e.preventDefault();const r=await fetch(f.action,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}});if(r.ok){f.style.display='none';document.getElementById('ok').style.display='block'}else alert('Something went wrong; reply to any Linewire email instead.')});</script>
 </body></html>
