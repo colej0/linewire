@@ -72,12 +72,12 @@ fieldset.prefs{border:1px solid #e5e7eb;border-radius:10px;padding:10px 14px;mar
 <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
 <button class="btn" type="submit">Get the free email</button><p class="err" id="err"></p>
 <p class="note">Free · NFL Sundays (NBA coming soon) · unsubscribe anytime</p></form>
-<div class="card ok" id="ok"><h3>You're on the list ✓</h3><p>Welcome email is on the way, including the <strong>Line Move Cheat Sheet</strong> (steam vs RLM, key numbers).</p><p style="margin-top:10px">Choose sports and digests-only vs alerts: <a href="prefs.html">prefs.html</a>.</p><p class="note" style="margin-top:12px">Optional later: Signal $9 or Edge $19 (7-day trial). No rush — the free Sunday digest is enough.</p></div>
+<div class="card ok" id="ok"><h3>You're on the list ✓</h3><p>Welcome email is on the way, including the <strong>Line Move Cheat Sheet</strong> (steam vs RLM, key numbers).</p><p style="margin-top:10px">Choose sports and digests-only vs alerts: <a href="prefs.html">prefs.html</a>.</p><p class="note" style="margin-top:12px">Linewire Pro (in-week alerts) is coming soon. You'll hear first.</p></div>
 </section>
 
 
 
-<footer>© 2026 Agentic Desk · Linewire · <a href="/">Home</a> · <a href="/tools/">Free tools</a> · <a href="/line-moves/">Line moves</a> · <a href="/track-record.html">Track record</a> · <a href="/markets/index.html">Markets</a> · <a href="/newsletter.html">Newsletter</a> · <a href="/pricing.html">Pricing</a> · <a href="/sponsor.html">Sponsor</a> · <a href="/steam-rlm.html">Steam &amp; RLM</a> · <a href="/prefs.html">Email preferences</a> · <a href="https://getshipdesk.com/">Shipdesk</a><br>For information only; not betting advice. 21+. Gambling problem? Call 1-800-GAMBLER.</footer>
+<footer>© 2026 Agentic Desk · Linewire · <a href="/">Home</a> · <a href="/tools/">Free tools</a> · <a href="/line-moves/">Line moves</a> · <a href="/track-record.html">Track record</a> · <a href="/markets/index.html">Markets</a> · <a href="/newsletter.html">Newsletter</a> · <a href="/pricing.html">Pricing</a> · <a href="/sponsor.html">Sponsor</a> · <a href="/steam-rlm.html">Steam &amp; RLM</a> · <a href="/prefs.html">Email preferences</a> · <a href="https://getshipdesk.com/">Shipdesk</a><br>For information only; not betting advice. 21+. DFS pick'em isn't available in all states; check eligibility. Gambling problem? Call 1-800-GAMBLER.</footer>
 <script>
 (function(){var f=document.getElementById('wl'),e=document.getElementById('err'),ok=document.getElementById('ok'),K='linewire_waitlist';
 if(!f)return;
@@ -86,7 +86,7 @@ f.addEventListener('submit',function(ev){ev.preventDefault();e.textContent='';va
 if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){e.textContent='Please enter a valid email.';return}
 var l=[];try{l=JSON.parse(localStorage.getItem(K)||'[]')}catch(x){}
 if(l.indexOf(em)>-1){done();return}l.push(em);try{localStorage.setItem(K,JSON.stringify(l))}catch(x){}
-fetch(f.action,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}}).then(done,done)});})();
+fetch(f.action,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}}).then(function(r){if(r&&r.ok)done();else if(window.lwErr)lwErr(f)},function(){if(window.lwErr)lwErr(f)})});})();
 </script>
 <section class="w" id="share" style="text-align:center"><h2>Know a bettor or DFS player?</h2><p class="lead">Send them the free Sunday digest.</p>
 <p><a class="btn ghost" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Free%20Sunday%20digest%3A%20top%20betting%20line%20moves%2C%20DFS%20notes%20(PrizePicks%2FUnderdog%2FDK%20Pick%206)%20%26%20one%20clear%20call.&url=https%3A%2F%2Flinewirehq.com%2Fnewsletter.html%3Futm_source%3Dx%26utm_medium%3Dshare%26utm_campaign%3Dreferral">Share on X</a>
