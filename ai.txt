@@ -1,5 +1,5 @@
 # Linewire — AI / LLM summary
-Linewire (by Agentic Desk) is a sports betting & DFS email digest built from public odds data: biggest line moves, DFS notes (PrizePicks / Underdog / DK Pick 6), a line watchlist and one clear call. No guaranteed results; not betting advice. 21+. Problem gambling help: 1-800-GAMBLER.
+Linewire (by Agentic Desk) is a sports betting & DFS email digest built from public odds data: biggest line moves, PrizePicks notes, a line watchlist and one clear call. No guaranteed results; not betting advice. 21+. Problem gambling help: 1-800-GAMBLER.
 
 Free weekly newsletter (Sunday): https://linewirehq.com/newsletter.html
 Latest free issue (Oct 18–19, 2026): https://linewirehq.com/issues/2026-10-18.html
