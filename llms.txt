@@ -1,6 +1,6 @@
 # Linewire
 
-> Free email: the biggest NFL & NBA line moves and how to bet them, plus a free PrizePicks Power Play lineup. NFL every Sunday before kickoff, NBA every Wednesday. Public data only.
+> Free email: the biggest NFL & NBA line moves and how to bet them, plus a free PrizePicks Power Play lineup. NFL every Sunday before kickoff. NBA Wednesdays coming soon. Public data only.
 
 ## Product
 - Site: https://linewirehq.com/
@@ -8,7 +8,8 @@
 - Steam & reverse line movement explained: https://linewirehq.com/steam-rlm.html
 - Power Play track record (every result logged): https://linewirehq.com/track-record.html
 - Pricing: https://linewirehq.com/pricing.html
-- Free newsletter (NFL Sundays, NBA Wednesdays): https://linewirehq.com/newsletter.html
+- Free newsletter (NFL Sundays; NBA coming soon): https://linewirehq.com/newsletter.html
+- Line moves hub (weekly pages): https://linewirehq.com/line-moves/
 - NFL line moves Week 7 (opening vs current): https://linewirehq.com/nfl-line-moves-week-7.html
 - Latest free issue (Oct 18–19, 2026): https://linewirehq.com/issues/2026-10-18.html
 
@@ -22,8 +23,11 @@
 - Bet payout & parlay calculator: https://linewirehq.com/tools/payout-calculator.html
 
 ## Plans
-- Free: NFL Sunday and NBA Wednesday emails + free PrizePicks Power Play lineup.
+- Free: NFL Sunday email (NBA Wednesdays coming soon) + free PrizePicks Power Play lineup.
 - Linewire Pro ($9/mo, coming soon): in-week and game-day line-move alerts.
+
+## Sponsors
+- Sponsor Linewire (newsletter + site placements, rates on request): https://linewirehq.com/sponsor.html
 
 ## Posture
 - Public data only. No sportsbook, banking, or financial-account logins or passwords.

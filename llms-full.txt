@@ -36,7 +36,6 @@ Sunday CT digest for people not ready for daily Signal/Edge. Join via https://li
 
 ## Pages
 - https://linewirehq.com/
-- https://linewirehq.com/digest.html
 - https://linewirehq.com/dfs.html
 - https://linewirehq.com/pricing.html
 - https://linewirehq.com/newsletter.html
