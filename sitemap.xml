@@ -283,4 +283,16 @@
 <url><loc>https://linewirehq.com/tools/round-robin-calculator.html</loc><lastmod>2026-10-16</lastmod></url>
 <url><loc>https://linewirehq.com/tools/nba-prop-breakeven.html</loc><lastmod>2026-10-16</lastmod></url>
 <url><loc>https://linewirehq.com/refer.html</loc><lastmod>2026-10-16</lastmod></url>
+  <url>
+    <loc>https://linewirehq.com/privacy.html</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://linewirehq.com/terms.html</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>
