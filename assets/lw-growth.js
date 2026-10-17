@@ -12,6 +12,8 @@ function get(k){if(!LS)return null;try{var v=JSON.parse(LS.getItem(k)||'null');r
 function set(k,v){if(!LS)return;try{LS.setItem(k,JSON.stringify(v))}catch(e){}}
 function clean(v,n){return String(v||'').toLowerCase().replace(/[^a-z0-9_\-.]/g,'').slice(0,n||40)}
 var q=new URLSearchParams(location.search);
+// privacy: drop email/e from the address bar before analytics loads (utm etc. already read above stay usable)
+(function(){try{var u=new URL(location.href),c=0;['email','e'].forEach(function(k){if(u.searchParams.has(k)){u.searchParams.delete(k);c=1}});if(c)history.replaceState(history.state,'',u.pathname+(u.searchParams.toString()?'?'+u.searchParams.toString():'')+u.hash)}catch(x){}})();
 function refSrc(){var r=document.referrer;if(!r)return 'direct';var h;try{h=new URL(r).hostname.replace(/^www\./,'')}catch(e){return 'direct'}
  if(HOSTS.test(h))return '';if(/(^|\.)google\.|bing\.com$|duckduckgo\.com$|search\.yahoo\.com$|ecosia\.org$|search\.brave\.com$/.test(h))return 'search';
  if(/^(t\.co|x\.com|twitter\.com|mobile\.twitter\.com)$/.test(h))return 'x';if(/reddit\.com$|^redd\.it$/.test(h))return 'reddit';if(/discord(app)?\.com$|discord\.gg$/.test(h))return 'discord';
@@ -34,7 +36,8 @@ window.addEventListener('submit',function(e){var f=e.target;if(f&&f.tagName==='F
 // analytics
 var Q=[];function track(n,d){try{if(window.umami&&umami.track){umami.track(n,d||{})}else if(Q.length<50)Q.push([n,d])}catch(e){}}
 window.lwTrack=track;
-function loadUmami(){if(!UMAMI_ID||!HOSTS.test(location.hostname))return;var s=document.createElement('script');s.defer=true;s.src=UMAMI_SRC;s.setAttribute('data-website-id',UMAMI_ID);s.setAttribute('data-domains','linewirehq.com,www.linewirehq.com');
+try{(window.__lwQ||[]).splice(0).forEach(function(e){track(e[0],e[1])})}catch(e){}
+function loadUmami(){if(!UMAMI_ID||!HOSTS.test(location.hostname))return;var s=document.createElement('script');s.defer=true;s.src=UMAMI_SRC;s.setAttribute('data-website-id',UMAMI_ID);s.setAttribute('data-exclude-search','true');s.setAttribute('data-domains','linewirehq.com,www.linewirehq.com');
  s.onload=function(){var t=setInterval(function(){if(window.umami&&umami.track){clearInterval(t);Q.splice(0).forEach(function(e){umami.track(e[0],e[1]||{})})}},300);setTimeout(function(){clearInterval(t)},8000)};document.head.appendChild(s)}
 // auto events on tool pages: first real input = tool_use (once per page view); share buttons
 function autos(){var tool=(document.querySelector('.isu input[name="source"]')||{}).value||'';var used=false,tm=null;

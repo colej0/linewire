@@ -36,4 +36,4 @@ var t=j.top,m=t.spread_move?t.spread_move_txt:(t.total_move?'total '+t.total_mov
 [].forEach.call(els,function(el){el.textContent='';var a=document.createElement('a');a.href='/line-moves/';a.textContent='This week\u2019s biggest NFL move: '+t.away+' @ '+t.home+', '+m+' \u2192';el.appendChild(a);el.hidden=false})}).catch(function(){})}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',run);else run()})();
 /* Growth helpers (attribution src/ref/utm + cookieless analytics): load once sitewide */
-(function(){if(window.__lwGrowth||document.querySelector('script[src*="lw-growth.js"]'))return;var s=document.createElement('script');s.src='/assets/lw-growth.js?v=20261017a';s.async=true;(document.head||document.documentElement).appendChild(s)})();
+(function(){if(window.__lwGrowth||document.querySelector('script[src*="lw-growth.js"]'))return;var s=document.createElement('script');s.src='/assets/lw-growth.js?v=20261017b';s.async=true;(document.head||document.documentElement).appendChild(s)})();
