@@ -27,3 +27,10 @@ document.addEventListener('submit',function(ev){var f=ev.target;
  var b=f.querySelector('button,[type=submit]');if(b)b.disabled=true;var oe=f.querySelector('.lw-err');if(oe)oe.textContent='';
  post(f).then(function(r){if(r&&r.ok)done();else showErr(f)},function(){showErr(f)})},true);
 })();
+/* This-week hook: one JSON refresh updates every tool page */
+(function(){function run(){var els=document.querySelectorAll('[data-lw-week]');if(!els.length||!window.fetch)return;
+var st=document.createElement('style');st.textContent='.lwwk{margin:0 0 14px;font-weight:700;font-size:.95rem}.lwwk a{color:#047857;text-decoration:none;background:#ecfdf5;border:1px solid #a7f3d0;border-radius:999px;padding:6px 12px;display:inline-block}.lwwk a:hover{background:#d1fae5}';document.head.appendChild(st);
+fetch('/assets/this-week.json',{cache:'no-cache'}).then(function(r){return r&&r.ok?r.json():null}).then(function(j){if(!j||!j.top||!j.updated_iso)return;var age=Date.now()-Date.parse(j.updated_iso);if(!(age>=0&&age<8*864e5))return;
+var t=j.top,m=t.spread_move?t.spread_move_txt:(t.total_move?'total '+t.total_move_txt:'');if(!m||!t.away||!t.home)return;
+[].forEach.call(els,function(el){el.textContent='';var a=document.createElement('a');a.href='/line-moves/';a.textContent='This week\u2019s biggest NFL move: '+t.away+' @ '+t.home+', '+m+' \u2192';el.appendChild(a);el.hidden=false})}).catch(function(){})}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',run);else run()})();
