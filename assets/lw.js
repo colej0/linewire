@@ -12,7 +12,7 @@ function prefsHTML(em,f_pro){return '<div class="lwp">'+(f_pro?'<h3>You\'re on t
 '<fieldset><legend>Platforms</legend>'+ck('interests[]','PrizePicks')+ck('interests[]','Straight bets')+'<p class="n" style="margin:6px 0 2px">Coming soon — notify me:</p>'+ck('interests[]','Underdog')+ck('interests[]','DraftKings Pick 6')+'</fieldset>'+
 '<input type="text" name="teams" placeholder="Teams you follow (optional)" aria-label="Teams you follow (optional)">'+
 '<button type="submit">Save preferences</button></form></div>'}
-var ERR='Something went wrong — try again or email linewire@mail.grokbot.com.';
+var ERR='Something went wrong — try again or email news@linewirehq.com.';
 function showErr(f){var e=f.querySelector('.lw-err');if(!e){e=document.createElement('p');e.className='lw-err';e.setAttribute('role','alert');e.style.cssText='color:#b91c1c;font-size:.9rem;margin:8px 0 0';f.appendChild(e)}e.textContent=ERR;var b=f.querySelector('button,[type=submit]');if(b)b.disabled=false}
 window.lwErr=showErr;
 function post(f){return fetch(FS,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}})}
