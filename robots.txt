@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /rewards/
 
 Sitemap: https://linewirehq.com/sitemap.xml
