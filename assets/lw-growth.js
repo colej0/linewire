@@ -2,12 +2,14 @@
    Standalone so it can ship without touching lw.js. Safe no-op until UMAMI_ID is set. */
 (function(){
 if(window.__lwGrowth)return;window.__lwGrowth=1;
-var UMAMI_ID='';               // ← paste the Umami Cloud website ID here (Settings → Websites → Edit → Website ID)
+var UMAMI_ID='f20b424e-b6a9-4e9e-a91c-15432dae0785'; // CONFIG: Umami Cloud website ID ('' = analytics off)
 var UMAMI_SRC='https://cloud.umami.is/script.js';
 var HOSTS=/(^|\.)linewirehq\.com$/;
-var LS=window.localStorage,now=Date.now(),D30=30*864e5;
-function get(k){try{return JSON.parse(LS.getItem(k)||'null')}catch(e){return null}}
-function set(k,v){try{LS.setItem(k,JSON.stringify(v))}catch(e){}}
+var now=Date.now(),D30=30*864e5;
+// storage: every access guarded (Safari private mode, blocked cookies/storage, sandboxed iframes throw on window.localStorage itself)
+var LS=null;try{LS=window.localStorage;var t='__lw_t';LS.setItem(t,'1');LS.removeItem(t)}catch(e){LS=null}
+function get(k){if(!LS)return null;try{var v=JSON.parse(LS.getItem(k)||'null');return (v&&typeof v==='object'&&typeof v.ts==='number')?v:null}catch(e){return null}}
+function set(k,v){if(!LS)return;try{LS.setItem(k,JSON.stringify(v))}catch(e){}}
 function clean(v,n){return String(v||'').toLowerCase().replace(/[^a-z0-9_\-.]/g,'').slice(0,n||40)}
 var q=new URLSearchParams(location.search);
 function refSrc(){var r=document.referrer;if(!r)return 'direct';var h;try{h=new URL(r).hostname.replace(/^www\./,'')}catch(e){return 'direct'}
