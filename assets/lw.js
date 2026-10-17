@@ -5,7 +5,8 @@ var css='.lwp{text-align:left}.lwp h3{margin:0 0 4px;color:#047857}.lwp .ck{disp
 var st=document.createElement('style');st.textContent=css;document.head.appendChild(st);
 function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
 function ck(n,v,c,l){return '<label class="ck"><input type="checkbox" name="'+n+'" value="'+v+'"'+(c?' checked':'')+'> '+(l||v)+'</label>'}
-function prefsHTML(em,f_pro){return '<div class="lwp">'+(f_pro?'<h3>You\'re on the Pro waitlist ✓</h3>':'<h3>You\'re in ✓</h3>')+'<p><strong>Check your inbox (and spam folder)</strong> for the welcome email from news@linewirehq.com.</p>'+(f_pro?'':'<p>Your free <strong>Line Move Cheat Sheet</strong> is ready now: <a href="/steam-rlm.html?utm_source=site&utm_medium=signup_success">open it →</a></p>')+
+function lwCS(){return ['','rewards','sunday-cheat-sheet-'+'p494i2yjzxv2'].join('/')+'.pdf'}
+function prefsHTML(em,f_pro){return '<div class="lwp">'+(f_pro?'<h3>You\'re on the Pro waitlist ✓</h3>':'<h3>You\'re in ✓</h3>')+'<p><strong>Check your inbox (and spam folder)</strong> for the welcome email from news@linewirehq.com.</p>'+(f_pro?'':'<p>Your free <strong>Sunday Line Move Cheat Sheet</strong> (1-page PDF) is ready now: <a rel="nofollow noopener" target="_blank" href="'+lwCS()+'?utm_source=site&utm_medium=signup_success">download it →</a></p>')+
 '<form class="lw-inline-prefs" novalidate><input type="hidden" name="email" value="'+esc(em)+'"><input type="hidden" name="source" value="inline_prefs"><input type="hidden" name="_subject" value="Linewire prefs update">'+
 '<p class="n" style="margin:10px 0 0">Optional: tailor your email (10 seconds)</p>'+
 '<fieldset><legend>Sports</legend>'+ck('sports[]','NFL',1)+'<p class="n" style="margin:6px 0 2px">Notify me when live:</p>'+ck('sports[]','NBA')+ck('sports[]','MLB')+ck('sports[]','NHL')+ck('sports[]','CFB')+ck('sports[]','CBB')+'</fieldset>'+
