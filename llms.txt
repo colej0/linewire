@@ -1,15 +1,14 @@
 # Linewire
 
-> Free Sunday email (7am CT): biggest betting line moves since open, steam vs reverse line movement, PrizePicks/Underdog/Pick6 notes and one clear call. Paid daily digests: betting line moves, DFS picks, and your line watchlist — plus price alerts on Edge. Public data only.
+> Free email: the biggest NFL & NBA line moves and how to bet them, plus a free PrizePicks Power Play lineup. NFL every Sunday before kickoff, NBA every Wednesday. Public data only.
 
 ## Product
 - Site: https://linewirehq.com/
-- What is a digest: https://linewirehq.com/digest.html
 - DFS picks format: https://linewirehq.com/dfs.html
-- How the digest works: https://linewirehq.com/how-digest-works.html
 - Steam & reverse line movement explained: https://linewirehq.com/steam-rlm.html
+- Power Play track record (every result logged): https://linewirehq.com/track-record.html
 - Pricing: https://linewirehq.com/pricing.html
-- Free weekly newsletter: https://linewirehq.com/newsletter.html
+- Free newsletter (NFL Sundays, NBA Wednesdays): https://linewirehq.com/newsletter.html
 - NFL line moves Week 7 (opening vs current): https://linewirehq.com/nfl-line-moves-week-7.html
 - Latest free issue (Oct 18–19, 2026): https://linewirehq.com/issues/2026-10-18.html
 
@@ -23,8 +22,8 @@
 - Bet payout & parlay calculator: https://linewirehq.com/tools/payout-calculator.html
 
 ## Plans
-- Signal ($9/mo, 7-day free trial): daily digest — line moves, DFS 3/2/1 picks, line watchlist, one clear call, noise filter. Checkout: https://buy.stripe.com/00w3cxb1w8vv9UA3VH9EI01
-- Edge ($19/mo, 7-day free trial): everything in Signal plus price alerts when watchlist lines hit your number, steam & reverse-line-move alerts. Checkout: https://buy.stripe.com/14A6oJ5HcbHH4Ag4ZL9EI02
+- Free: NFL Sunday and NBA Wednesday emails + free PrizePicks Power Play lineup.
+- Linewire Pro ($9/mo, coming soon): in-week and game-day line-move alerts.
 
 ## Posture
 - Public data only. No sportsbook, banking, or financial-account logins or passwords.
