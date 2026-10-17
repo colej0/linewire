@@ -8,13 +8,13 @@ function ck(n,v,c){return '<label class="ck"><input type="checkbox" name="'+n+'"
 function prefsHTML(em){return '<div class="lwp"><h3>You\'re in ✓</h3><p><strong>Check your inbox (and spam folder)</strong> for the welcome email from news@linewirehq.com.</p>'+
 '<form class="lw-inline-prefs" novalidate><input type="hidden" name="email" value="'+esc(em)+'"><input type="hidden" name="source" value="inline_prefs"><input type="hidden" name="_subject" value="Linewire prefs update">'+
 '<p class="n" style="margin:10px 0 0">Optional: tailor your email (10 seconds)</p>'+
-'<fieldset><legend>Sports</legend>'+ck('sports[]','NFL',1)+ck('sports[]','NBA')+ck('sports[]','MLB')+ck('sports[]','NHL')+ck('sports[]','CFB')+ck('sports[]','CBB')+'</fieldset>'+
+'<fieldset><legend>Sports</legend>'+ck('sports[]','NFL',1)+ck('sports[]','NBA',1)+ck('sports[]','MLB')+ck('sports[]','NHL')+ck('sports[]','CFB')+ck('sports[]','CBB')+'</fieldset>'+
 '<fieldset><legend>Platforms</legend>'+ck('interests[]','PrizePicks')+ck('interests[]','Underdog')+ck('interests[]','DraftKings Pick 6')+ck('interests[]','Straight bets')+'</fieldset>'+
 '<input type="text" name="teams" placeholder="Teams you follow (optional)" aria-label="Teams you follow (optional)">'+
 '<button type="submit">Save preferences</button></form></div>'}
 function post(f){return fetch(FS,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}})}
 document.addEventListener('submit',function(ev){var f=ev.target;
- if(f.classList&&f.classList.contains('lw-inline-prefs')){ev.preventDefault();ev.stopPropagation();var box=f.parentNode;function ok(){box.innerHTML='<h3>Saved ✓</h3><p>Applies from your next email.</p>'}post(f).then(ok,ok);return}
+ if(f.classList&&f.classList.contains('lw-inline-prefs')){ev.preventDefault();ev.stopPropagation();var box=f.parentNode;function ok(){box.innerHTML='<h3>Saved ✓</h3><p>Applies from your next Sunday (NFL) or Wednesday (NBA) email.</p>'}post(f).then(ok,ok);return}
  var a=f.getAttribute('action')||'';if(a.indexOf('formspree.io/f/mjygjovn')<0||f.id==='pf')return;
  ev.preventDefault();ev.stopPropagation();
  var em=(f.email&&f.email.value||'').trim();if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){if(f.email)f.email.focus();return}
