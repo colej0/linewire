@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Alea mark">
+  <rect width="64" height="64" rx="14" fill="#181b16" stroke="rgba(201,165,106,0.35)"/>
+  <circle cx="18" cy="44" r="2.2" fill="#c9a56a"/>
+  <circle cx="46" cy="18" r="2.2" fill="#c9a56a"/>
+  <path d="M18 44 C22 28, 30 36, 34 28 S42 22, 46 18" fill="none" stroke="#c9a56a" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="30" cy="22" r="1.1" fill="rgba(240,236,227,0.35)"/>
+  <circle cx="40" cy="36" r="1.1" fill="rgba(240,236,227,0.28)"/>
+  <circle cx="24" cy="30" r="1.1" fill="rgba(240,236,227,0.22)"/>
+</svg>
